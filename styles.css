@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+  }
+  
+  body{
+    display: flex;
+      background: linear-gradient(180deg, black, blue);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+  
+  .main-bar{
+    margin: 40px 40px 40px 35%;
+    width: 70%;
+    text-align: justify;
+    color: white;
+  }
+  
+  .main-bar {
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+  
+  .main-bar ul{
+    margin-left: 60px;
+    margin-top: 20px;
+  }
+  
+  .main-bar p{
+    margin-top: 20px;
+  }
+  
+  .main-section header{
+    font-weight: 900;
+    text-transform: uppercase;  
+    margin: 20px 0;
+  }
+  
+  code{
+    display: block;
+    background-color: gray;
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    text-align:center;
+    border: 3px solid white;
+  }
+  
+  nav{
+    position:fixed;
+    color: white;
+    width: 30%;
+    height: 100vh;
+    border-right: 2px solid gray;
+    overflow: scroll;
+    background: linear-gradient(270deg, yellowgreen, green);
+  }
+  
+  nav ul li a{
+    color: white;
+    text-decoration: none;
+    margin: 20px;
+  }
+  
+  nav ul{
+    margin-top: 40px;
+  }
+  
+  nav ul li{
+    text-align: left;
+    font-size: 18px;
+    padding: 20px 0 20px 0;
+    margin: auto 0;
+    list-style: none;
+    border-bottom: 4px solid gray;
+  }
+  
+  nav h2{
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  @media only screen and (max-width: 815px){
+    nav ul li a{
+      color: red;
+    }
+  }
